@@ -1,37 +1,126 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/arminZolfaghari/CMeans_fuzzy/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h2 align="center">CMeans_fuzzy</h2>
+  <p align="center">
+    Classification based on Fuzzy Logic(C-Means).
+  </p>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#fuzzy-cmeans-algorithm">Fuzzy CMeans Algorithm</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#sample-of-output">Sample Of Output</a>
+      <ul>
+        <li><a href="#normal-clustering">Normal Clustering</a></li>
+        <li><a href="#fuzzy-clustering">Fuzzy Clustering</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+<br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- ABOUT THE PROJECT -->
+## About The Project
+Computational Intelligence Course 2nd Project:
+In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each datapoint isn't forced to belong only to a specific cluster, but can belong to clusters to `Verying Degrees`. Thats difference between `Fuzzy Clustering` and `Normal Clustering`.
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Fuzzy CMeans Algorithm:
+1. Determine the number of clusters, then Generate the centroid of clusters randomly.
+2. Finding each data point belongs to which cluster (or clusters).
+3. Updating new centroid of clusters based on datapoints in the cluster.
+4. Repeat steps 2 and 3 until each cluster reaches stability.
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Built With
+* [python](https://python.org/)
 
-[Link](url) and ![Image](src)
-```
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arminZolfaghari/CMeans_fuzzy/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<!-- GETTING STARTED -->
+## Getting Started
+### Installation
+1. Clone the repository
+```sh
+   git clone https://github.com/arminZolfaghari/CMeans_fuzzy.git
+   ```
+2. Run CMeans.py with ```python CMeans.py```
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Sample Of Output
+
+### Normal Clustering
+![alt text](https://github.com/arminZolfaghari/CMeans_fuzzy/blob/main/sample_run/sampleRun-normalClustring-dataset1.png)
+
+### Fuzzy Clustering
+![alt text](https://github.com/arminZolfaghari/CMeans_fuzzy/blob/main/sample_run/sampleRun-fuzzyClustring-dataset1.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+
+<!-- CONTACT -->
+## Contact
+
+Armin Zolfaghari Daryani - arminzolfagharid@gmail.com
+<br/>
+Project Link: [https://github.com/arminZolfaghari/CMeans_fuzzy](https://github.com/arminZolfaghari/CMeans_fuzzy)
+<p align="right">(<a href="#top">back to top</a>)</p>
+

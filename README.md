@@ -1,7 +1,4 @@
 
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -19,7 +16,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#Fuzzy-CMeans-Algorithm"></a></li>
+        <li><a href="#fuzzy-cmeans-algorithm">Fuzzy CMeans Algorithm</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -30,9 +27,10 @@
       </ul>
     </li>
     <li>
-      <a href="#Sample-Of-Output">Getting Started</a>
+      <a href="#sample-of-output">Sample Of Output</a>
       <ul>
-        <li><a href="#Normal-Clustering-(dataset1)">Installation</a></li>
+        <li><a href="#normal-clustering">Normal Clustering</a></li>
+        <li><a href="#fuzzy-clustering">Fuzzy Clustering</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -40,24 +38,29 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
+<br/>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 Computational Intelligence Course 2nd Project:
 In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each datapoint isn't forced to belong only to a specific cluster, but can belong to clusters to `Verying Degrees`. Thats difference between `Fuzzy Clustering` and `Normal Clustering`.
+<br/>
+
+
 
 ### Fuzzy CMeans Algorithm:
 1. Determine the number of clusters, then Generate the centroid of clusters randomly.
 2. Finding each data point belongs to which cluster (or clusters).
 3. Updating new centroid of clusters based on datapoints in the cluster.
 4. Repeat steps 2 and 3 until each cluster reaches stability.
+<br/>
 
 
 ### Built With
 * [python](https://python.org/)
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
 
 
 
@@ -70,15 +73,17 @@ In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each 
    ```
 2. Run CMeans.py with ```python CMeans.py```
 
+<br/>
 
 
 ## Sample Of Output
-### Normal Clustering (dataset1)
+
+### Normal Clustering
 ![alt text](https://github.com/arminZolfaghari/CMeans_fuzzy/blob/main/sample_run/sampleRun-normalClustring-dataset1.png)
 
-### Fuzzy Clustering (dataset1)
+### Fuzzy Clustering
 ![alt text](https://github.com/arminZolfaghari/CMeans_fuzzy/blob/main/sample_run/sampleRun-fuzzyClustring-dataset1.png)
-
+<br/>
 
 
 <!-- CONTRIBUTING -->
@@ -96,7 +101,7 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+<br/>
 
 
 
@@ -105,11 +110,13 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
 
 <!-- CONTACT -->
 ## Contact
 
 Armin Zolfaghari Daryani - arminzolfagharid@gmail.com
+<br/>
 Project Link: [https://github.com/arminZolfaghari/CMeans_fuzzy](https://github.com/arminZolfaghari/CMeans_fuzzy)
 <p align="right">(<a href="#top">back to top</a>)</p>
 

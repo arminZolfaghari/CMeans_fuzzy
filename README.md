@@ -44,6 +44,7 @@
 ## About The Project
 Computational Intelligence Course 2nd Project:
 In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each datapoint isn't forced to belong only to a specific cluster, but can belong to clusters to `Verying Degrees`. Thats difference between `Fuzzy Clustering` and `Normal Clustering`.
+<p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 
 
@@ -53,6 +54,7 @@ In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each 
 2. Finding each data point belongs to which cluster (or clusters).
 3. Updating new centroid of clusters based on datapoints in the cluster.
 4. Repeat steps 2 and 3 until each cluster reaches stability.
+<p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 
 
@@ -72,7 +74,7 @@ In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each 
    git clone https://github.com/arminZolfaghari/CMeans_fuzzy.git
    ```
 2. Run CMeans.py with ```python CMeans.py```
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 
 
@@ -83,6 +85,8 @@ In this project the `Fuzzy` version of `K-Means` algorithm is implemented. Each 
 
 ### Fuzzy Clustering
 ![alt text](https://github.com/arminZolfaghari/CMeans_fuzzy/blob/main/sample_run/sampleRun-fuzzyClustring-dataset1.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 
 
